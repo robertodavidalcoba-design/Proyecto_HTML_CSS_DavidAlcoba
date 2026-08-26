@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CyberCursosPrograming - Para el mundo que se viene</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Google Fonts para tipografía limpia -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navegación -->
+  <header class='navbar'>
+    <div class='nav-container'>
+      <div class="logo" id='link-home'>CyberCursosPrograming</div>
+      <nav class='nav-links'>
+        <a href="#" id='link-cursos'>Cursos</a>
+        <a href="#">Carreras</a>
+        <a href="#">Diplomaturas</a>
+      </nav>
+      <div class='nav-actions'>
+        <a href="#contacto" class="btn-primary">Inscribirme ahora</a>
+        <a href="#iniciarsesion" class="btn-primary">Iniciar Sesión</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+    <!-- VISTA 1: HOME (Página Principal) -->
+    <div id="home-view">
+      <section class="formats-section">
+        <h1 class="main-title">Encontrá el formato perfecto para vos</h1>
+        <p class="main-subtitle">Cada formato resuelve un objetivo distinto. Empezá por el que mejor se adapte a lo que querés lograr y entrá directo al catálogo.</p>
+
+        <div class="cards-grid">
+          <!-- Card 1: Curso -->
+          <div class="card">
+            <span class="badge">UNA HABILIDAD PUNTUAL</span>
+            <h2>Curso</h2>
+            <ul class="checklist">
+              <li><strong>Para vos si:</strong> querés dominar un tema específico: IA, Marketing, Data, Programación, Diseño y más.</li>
+              <li><strong>Es:</strong> una formación corta y enfocada en una sola habilidad, de pocas semanas.</li>
+              <li><strong>Cómo se cursa:</strong> clases en vivo con profes de la industria, con certificado.</li>
+            </ul>
+            <a href="#" class="btn-orange">Ver cursos &rarr;</a>
+          </div>
+
+          <!-- Card 2: Carrera -->
+          <div class="card">
+            <span class="badge">UNA PROFESIÓN COMPLETA</span>
+            <h2>Carrera</h2>
+            <ul class="checklist">
+              <li><strong>Para vos si:</strong> querés una formación integral en un campo, no solo una habilidad suelta.</li>
+              <li><strong>Es:</strong> un programa más completo, compuesto por varios cursos en un mismo plan.</li>
+              <li><strong>Cómo se cursa:</strong> clases en vivo, con más profundidad y práctica que un curso.</li>
+            </ul>
+            <a href="#" class="btn-orange">Ver carreras &rarr;</a>
+          </div>
+
+          <!-- Card 3: Diplomatura -->
+          <div class="card">
+            <span class="badge">REINVENTARTE DESDE CERO</span>
+            <h2>Diplomatura</h2>
+            <ul class="checklist">
+              <li><strong>Para vos si:</strong> querés cambiar de profesión y entrar a la industria tech desde cero.</li>
+              <li><strong>Es:</strong> una formación intensiva y completa, en menos de 15 meses, con clases diarias en vivo.</li>
+              <li><strong>Incluye:</strong> garantía de empleabilidad — si no conseguís trabajo, te devolvemos tu dinero.</li>
+            </ul>
+            <a href="#" class="btn-orange">Ver diplomaturas &rarr;</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección Metodología -->
+      <section class="methodology-section">
+        <span class="section-tag">METODOLOGÍA</span>
+        <h2 class="section-title">Una forma de aprender pensada<br>para que llegues hasta el final</h2>
+
+        <div class="live-class-card">
+          <div class="live-class-info">
+            <h3>Clases en vivo</h3>
+            <p>Aprendé en vivo con profesores que trabajan en lo que enseñan. Repasá conceptos, hacé tus preguntas y llevate ejemplos reales en cada clase.</p>
+          </div>
+          <div class="live-class-preview">
+            <div class="stream-window">
+              <div class="stream-badge">🔴 CLASE EN VIVO</div>
+              <div class="stream-main-video">
+                <div class="avatar-speaker">
+                  <span class="profesor-tag">Valentina · Profesora</span>
+                </div>
+              </div>
+              <div class="stream-sidebar">
+                <div class="user-chip">CA<span>Cami</span></div>
+                <div class="user-chip">DI<span>Diego</span></div>
+                <div class="user-chip">SO<span>Sofi</span></div>
+                <div class="user-chip">MA<span>Mati</span></div>
+                <div class="user-chip">LU<span>Lucía</span></div>
+                <div class="user-chip">FE<span>Fede</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contenido Asincrónico -->
+      <section class="async-section">
+        <h3 class="async-title">Complementá la clase con contenido asincrónico</h3>
+        <p class="async-subtitle">Además de la clase en vivo, vas a tener un montón de contenido para aprender en el formato que mejor te funcione.</p>
+
+        <div class="async-grid">
+          <div class="async-card">
+            <div class="async-icon">📄</div>
+            <h4>Texto</h4>
+            <p>Material claro y al grano para leer a tu ritmo.</p>
+          </div>
+
+          <div class="async-card">
+            <div class="async-icon">☑️</div>
+            <h4>Quizzes</h4>
+            <p>Poné a prueba lo que aprendiste y fijá conceptos en cada unidad.</p>
+          </div>
+
+          <div class="async-card">
+            <div class="async-icon">🃏</div>
+            <h4>Flashcards</h4>
+            <p>Repasá lo clave en minutos, donde estés.</p>
+          </div>
+
+          <div class="async-card">
+            <div class="async-icon">🎧</div>
+            <h4>Audio</h4>
+            <p>Escuchá tus clases mientras viajás, entrenás o hacés otra cosa.</p>
+          </div>
+
+          <div class="async-card">
+            <div class="async-icon">🎙️</div>
+            <h4>Podcast</h4>
+            <p>Todo en formato conversado, para aprender sin pantalla.</p>
+          </div>
+
+          <div class="async-card">
+            <div class="async-icon">&lt;/&gt;</div>
+            <h4>Código</h4>
+            <p>Construí, probá y visualizá tus proyectos en un editor integrado.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Formulario Personalizado Eleganter (Modificado) -->
+      <section class="form-section" id="contacto">
+        <div class="form-wrapper">
+          <div class="form-header">
+            <span class="form-badge">¿NO ENCONTRÁS TU CURSO?</span>
+            <h2>Curso a medida de tus necesidades</h2>
+            <p>Completa el formulario para evaluar la disponibilidad del dictado e indicarnos qué tema te gustaría aprender.</p>
+          </div>
+
+          <form id="courseRequestForm" class="styled-form" novalidate>
+            <div class="form-grid">
+              <!-- Campo 1: Nombre del Curso -->
+              <div class="input-group full-width">
+                <label for="courseName">Curso requerido <span class="required">*</span></label>
+                <div class="input-container">
+                  <input type="text" id="courseName" name="courseName" placeholder="Ej. Excel Avanzado, Python para Data Science..." required>
+                  <span class="input-focus-border"></span>
+                </div>
+              </div>
+
+              <!-- Campo 2: Motivo / Razón -->
+              <div class="input-group full-width">
+                <label for="reason">¿Cuál es el motivo o razón de la solicitud? <span class="required">*</span></label>
+                <div class="input-container">
+                  <textarea id="reason" name="reason" rows="3" placeholder="Describe brevemente por qué necesitas este curso y cuál es tu objetivo..." required></textarea>
+                  <span class="input-focus-border"></span>
+                </div>
+              </div>
+
+              <!-- Campo 3: Fecha Tentativa -->
+              <div class="input-group">
+                <label for="targetDate">Fecha estimada para el dictado <span class="required">*</span></label>
+                <div class="input-container">
+                  <input type="date" id="targetDate" name="targetDate" required>
+                  <span class="input-focus-border"></span>
+                </div>
+              </div>
+
+              <!-- Campo 4: Correo Electrónico -->
+              <div class="input-group">
+                <label for="email">Correo electrónico de contacto <span class="required">*</span></label>
+                <div class="input-container">
+                  <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+                  <span class="input-focus-border"></span>
+                </div>
+              </div>
+            </div>
+
+            <button type="submit" id="submitBtn" class="form-submit-btn">
+              <span>Enviar Solicitud</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </button>
+          </form>
+          <!-- Mensaje de estado -->
+          <div id="formFeedback" class="form-feedback hidden"></div>
+        </div>
+      </section>
+    </div>
+
+    <!-- VISTA 2: CATÁLOGO DE CURSOS (Oculta por defecto) -->
+    <div id="courses-view" class="hidden-view">
+      <div class="catalog-header">
+        <h2>Catálogo de Cursos Demandados en el Mercado Laboral</h2>
+        <p>Aprende Como Automatizar los Procesos Diarios de tu Trabajo</p>
+      </div>
+
+      <div class="courses-grid">
+        <!-- Curso 1 -->
+        <div class="course-card">
+          <div class="course-banner bg-gear">
+            <span class="tag-new">NUEVO</span>
+            <span class="category-tag">EXCEL A FONDO</span>
+            <h3>EXCEL</h3>
+          </div>
+          <div class="course-body">
+            <h4>EXCEL A FONDO</h4>
+            <p class="meta-info"><strong>Nivel:</strong> Inicial | <strong>Duración:</strong> 4 semanas</p>
+            <span class="cert-badge">✓ CERTIFICADO POR <strong>MICROSOFT</strong></span>
+            <div class="price-box">
+              <div class="discount-tag">20% OFF <span class="old-price">$235.620 ARS</span></div>
+              <p class="installments">Hasta 6 cuotas sin interés de</p>
+              <p class="main-price">$31.416 ARS</p>
+              <p class="final-price">Precio final: $188.496 ARS</p>
+            </div>
+            <button class="btn-orange full-btn">Ver curso</button>
+          </div>
+        </div>
+
+        <!-- Curso 2 -->
+        <div class="course-card">
+          <div class="course-banner bg-flash">
+            <span class="tag-new">NUEVO</span>
+            <span class="category-tag">HTML CSS JAVASCRIPT</span>
+            <h3>DISEÑO WEB HTML CSS JAVASCRIPT</h3>
+          </div>
+          <div class="course-body">
+            <h4>Curso de Diseño Web Html, CSS y Javascript</h4>
+            <p class="meta-info"><strong>Nivel:</strong> Avanzado | <strong>Duración:</strong> 5 semanas</p>
+            <span class="cert-badge">✓ CERTIFICADO POR <strong>KAPTION</strong></span>
+            <div class="price-box">
+              <div class="discount-tag">20% OFF <span class="old-price">$199.815 ARS</span></div>
+              <p class="installments">Hasta 6 cuotas sin interés de</p>
+              <p class="main-price">$26.642 ARS</p>
+              <p class="final-price">Precio final: $159.852 ARS</p>
+            </div>
+            <button class="btn-orange full-btn">Ver curso</button>
+          </div>
+        </div>
+
+        <!-- Curso 3 -->
+        <div class="course-card">
+          <div class="course-banner bg-chip">
+            <span class="tag-new">NUEVO</span>
+            <span class="category-tag">PYTHON</span>
+            <h3>Lenguaje de Programación</h3>
+          </div>
+          <div class="course-body">
+            <h4>Curso de Python a Fondo</h4>
+            <p class="meta-info"><strong>Nivel:</strong> Avanzado | <strong>Duración:</strong> 6 semanas</p>
+            <div class="price-box">
+              <div class="discount-tag">20% OFF <span class="old-price">$231.000 ARS</span></div>
+              <p class="installments">Hasta 6 cuotas sin interés de</p>
+              <p class="main-price">$30.800 ARS</p>
+              <p class="final-price">Precio final: $184.800 ARS</p>
+            </div>
+            <button class="btn-orange full-btn">Ver curso</button>
+          </div>
+        </div>
+
+        <!-- Curso 4 -->
+        <div class="course-card">
+          <div class="course-banner bg-wand">
+            <span class="tag-new">NUEVO</span>
+            <span class="category-tag">Inteligencia Artificial con Claude</span>
+            <h3>Creación de contenido con AI</h3>
+          </div>
+          <div class="course-body">
+            <h4>Curso de Creación de contenido con AI con Claude</h4>
+            <p class="meta-info"><strong>Nivel:</strong> Intermedio | <strong>Duración:</strong> 8 semanas</p>
+            <span class="cert-badge">✓ CERTIFICADO POR <strong>UNSa</strong></span>
+            <div class="price-box">
+              <div class="discount-tag">20% OFF <span class="old-price">$235.620 ARS</span></div>
+              <p class="installments">Hasta 6 cuotas sin interés de</p>
+              <p class="main-price">$31.416 ARS</p>
+              <p class="final-price">Precio final: $188.496 ARS</p>
+            </div>
+            <button class="btn-orange full-btn">Ver curso</button>
+          </div>
+        </div>
+
+        <!-- Curso 5 -->
+        <div class="course-card">
+          <div class="course-banner bg-robot">
+            <span class="tag-new">NUEVO</span>
+            <span class="category-tag">Inteligencia Artificial</span>
+            <h3>AI Agents</h3>
+          </div>
+          <div class="course-body">
+            <h4>Curso de AI Agents</h4>
+            <p class="meta-info"><strong>Nivel:</strong> Intermedio | <strong>Duración:</strong> 5 semanas</p>
+            <div class="price-box">
+              <div class="discount-tag">20% OFF <span class="old-price">$217.000 ARS</span></div>
+              <p class="installments">Hasta 6 cuotas sin interés de</p>
+              <p class="main-price">$28.933 ARS</p>
+              <p class="final-price">Precio final: $173.600 ARS</p>
+            </div>
+            <button class="btn-orange full-btn">Ver curso</button>
+          </div>
+        </div>
+
+        <!-- Curso 6 -->
+        <div class="course-card">
+          <div class="course-banner bg-bulb">
+            <span class="tag-new">NUEVO</span>
+            <span class="category-tag">Inteligencia Artificial</span>
+            <h3>Vibe Coding: creá tu app con IA</h3>
+          </div>
+          <div class="course-body">
+            <h4>Curso de Vibe Coding: creá tu app con IA</h4>
+            <p class="meta-info"><strong>Nivel:</strong> Inicial | <strong>Duración:</strong> 6 semanas</p>
+            <div class="price-box">
+              <div class="discount-tag">20% OFF <span class="old-price">$199.815 ARS</span></div>
+              <p class="installments">Hasta 6 cuotas sin interés de</p>
+              <p class="main-price">$26.642 ARS</p>
+              <p class="final-price">Precio final: $159.852 ARS</p>
+            </div>
+            <button class="btn-orange full-btn">Ver curso</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- SDK de EmailJS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function(){
+      emailjs.init({
+        publicKey: "4mLJg7Be49daJFEdN", // Reemplaza aquí con tu Public Key de EmailJS
+      });
+    })();
+  </script>
+  <script src="jss/script.js"></script>
+</body>
+</html>
