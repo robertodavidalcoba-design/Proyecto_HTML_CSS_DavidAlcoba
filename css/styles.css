@@ -494,10 +494,10 @@ main {
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 768px) {
-  .nav-links {
+  /*.nav-links {
     display: none;
-  }
-
+  } */
+  
   .live-class-card {
     grid-template-columns: 1fr;
   }
@@ -518,7 +518,12 @@ main {
     width: 100%;
   }
 }
-
+@media (max-width: 480px) {
+  .nav-links {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+}
 /* PAGINA DE CURSOS*/
 
 /* ESTADOS DE VISIBILIDAD DE VISTAS */
@@ -662,4 +667,24 @@ main {
 .full-btn {
   width: 100%;
   text-align: center;
+}
+
+/* NAVEGACION */
+.nav-container1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-container2 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+  justify-content: center; /* opcional: centra los links */
 }
