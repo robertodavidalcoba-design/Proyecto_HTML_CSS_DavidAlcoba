@@ -2,16 +2,20 @@ document.addEventListener('DOMContentLoaded', () => {
   // 1. Elementos de navegación y vistas
   const linkHome = document.getElementById('link-home');
   const linkCursos = document.getElementById('link-cursos');
-  const btnVerCursosList = document.querySelectorAll('.view-courses-btn');
+  //const btnVerCursosList = document.querySelectorAll('.view-courses-btn');
 
   const homeView = document.getElementById('home-view');
   const coursesView = document.getElementById('courses-view');
+  
+  // Seleccionar todos los botones/enlaces que abren el catálogo de cursos
+  const courseButtons = document.querySelectorAll('.btn-ver-cursos');
 
   // Función para mostrar la sección de Cursos
   function showCoursesView(e) {
     if (e) e.preventDefault();
     homeView.classList.add('hidden-view');
     coursesView.classList.remove('hidden-view');
+    // Desplaza la pantalla suavemente al inicio
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
@@ -27,7 +31,11 @@ document.addEventListener('DOMContentLoaded', () => {
   if (linkCursos) linkCursos.addEventListener('click', showCoursesView);
   if (linkHome) linkHome.addEventListener('click', showHomeView);
 
-  btnVerCursosList.forEach(btn => {
+  //btnVerCursosList.forEach(btn => {
+  //  btn.addEventListener('click', showCoursesView);
+  //});
+  // Asignar el evento a CADA botón que tenga la clase .btn-ver-cursos
+  courseButtons.forEach(btn => {
     btn.addEventListener('click', showCoursesView);
   });
 
